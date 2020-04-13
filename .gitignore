@@ -1,5 +1,10 @@
-env/
+# directories related to django/python
+env
+migrations
+
+# files related to django/python
 secrets.py
+
 
 # Created by https://www.gitignore.io/api/react,django,python
 # Edit at https://www.gitignore.io/?templates=react,django,python
