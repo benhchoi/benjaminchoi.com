@@ -99,6 +99,18 @@ export const projectsData = [
     url: 'https://drive.google.com/file/d/1WBo-bsAaHBnAxpvwuWxdDlALuhUuPhDE/view?usp=sharing',
     repo: 'https://github.com/choibc97/twitter_sentiment_analyzer',
   },
+  {
+    id: nanoid(),
+    img: 'combined_congestion_game.png',
+    title: 'An ε-Greedy Approach to the Congestion Game',
+    info: `Examined whether an ε-greedy multi-armed bandit algorithm can be used to find the Nash equilibrium for 
+    the classic highway congestion game associated with Braess' Paradox. Results showed the approach converged to 
+    the correct equilibrium in most cases, but coverged best when: the number of runs increases, the max iterations 
+    parameter increases, ε increases, or agents gain perfect information.`,
+    info2: `Completed for WUSTL's Multi-Agent Systems course, implemented in Python.`,
+    urltxt: 'See Report',
+    url: 'https://drive.google.com/file/d/1tUPR4NmxVtUFStLyoR4RtasdckRb_GzN/view?usp=sharing',
+  },
 ];
 
 // CONTACT DATA
