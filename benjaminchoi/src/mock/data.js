@@ -111,6 +111,7 @@ export const projectsData = [
     info2: `Completed for WUSTL's Multi-Agent Systems course, implemented in Python.`,
     urltxt: 'See Report',
     url: 'https://drive.google.com/file/d/1tUPR4NmxVtUFStLyoR4RtasdckRb_GzN/view?usp=sharing',
+    repo: 'https://github.com/choibc97/congestion_game',
   },
 ];
 
