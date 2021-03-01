@@ -31,7 +31,7 @@ export const aboutData = {
     Tau, and the university's CSE department.`,
   paragraphThree: `Outside of work, I enjoy tackling new food projects, traveling, Brazilian 
   Jiu-Jitsu, Judo, and yoga!`,
-  resume: 'https://drive.google.com/file/d/1TbsAc08SOv8efObL_8iRZyQAlSPpa15p/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1v9h2MqKkwzSIigl9-YYJAgb0KQ_AGz1V/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
