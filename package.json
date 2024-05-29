@@ -1,74 +1,16 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "MIT",
+  "name": "benjaminchoi.com",
+  "version": "1.0.0",
+  "description": "The personal website of Benjamin Choi",
+  "main": "index.js",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "tw-watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
-  "dependencies": {
-    "bootstrap": "~5.3.0",
-    "gatsby": "~5.13.5",
-    "gatsby-image": "~3.11.0",
-    "gatsby-plugin-manifest": "~5.13.1",
-    "gatsby-plugin-offline": "~6.13.2",
-    "gatsby-plugin-react-helmet": "~6.13.1",
-    "gatsby-plugin-sass": "~6.13.1",
-    "gatsby-plugin-sharp": "~5.13.1",
-    "gatsby-source-filesystem": "~5.13.1",
-    "gatsby-transformer-sharp": "~5.13.1",
-    "nanoid": "~5.0.7",
-    "node-sass": "~9.0.0",
-    "prop-types": "~15.8.1",
-    "react": "~18.3.1",
-    "react-bootstrap": "~2.10.2",
-    "react-dom": "~18.3.1",
-    "react-github-btn": "~1.4.0",
-    "react-helmet": "~6.1.0",
-    "react-scroll": "~1.9.0",
-    "react-tilt": "~1.0.2"
-  },
+  "author": "Benjamin Choi",
+  "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "~10.1.0",
-    "eslint": "~8.57.0",
-    "eslint-config-airbnb": "~19.0.4",
-    "eslint-config-prettier": "~9.1.0",
-    "eslint-plugin-import": "~2.29.1",
-    "eslint-plugin-jsx-a11y": "~6.8.0",
-    "eslint-plugin-prettier": "~5.1.3",
-    "eslint-plugin-react": "~7.34.2",
-    "eslint-plugin-react-hooks": "~4.6.2",
-    "husky": "~9.0.11",
-    "lint-staged": "~15.2.5",
-    "prettier": "~3.2.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.+(js|jsx)": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.+(json|css|md)": [
-      "prettier --write",
-      "git add"
-    ]
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.3"
   }
 }

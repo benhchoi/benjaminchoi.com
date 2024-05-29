@@ -1,2 +1,3 @@
-# benjaminchoi.com
-The repo for my personal website.
+#benjaminchoi.com
+
+The code powering my personal website.
